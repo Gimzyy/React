@@ -1,12 +1,18 @@
 html,body{
-  margin: 0 auto;
+  margin: 0 ;
   padding: 0;
+}
+
+.shell-content {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .app-wrapper{
   display: grid;
-  width: 100%;
   max-width: 1800px;
+
 
   grid-template-areas:
   "header header"

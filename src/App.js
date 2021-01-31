@@ -6,13 +6,16 @@ import Content from "./Components/Content";
 
 function App() {
   return (
-    <div className= 'app-wrapper'>
-        <Header />
+      <div className= 'shell-content'>
+            <div className= 'app-wrapper'>
 
-        <Navigation />
+                <Header />
 
-        <Content />
-    </div>
+                <Navigation />
+
+                <Content />
+            </div>
+      </div>
   );
 }
 

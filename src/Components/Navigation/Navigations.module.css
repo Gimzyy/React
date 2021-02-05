@@ -1,0 +1,12 @@
+.sectionNav{
+    grid-area: navigation;
+    background-color: forestgreen;
+}
+
+.item{
+    text-decoration: none;
+}
+
+.active{
+    color: aqua;
+}

@@ -1,0 +1,9 @@
+.sectionHeader{
+    grid-area: header;
+    background-color: forestgreen;
+}
+
+.sectionHeader img{
+    height: 100%;
+    width: auto;
+}

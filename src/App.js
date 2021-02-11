@@ -4,25 +4,27 @@ import Header from "./Components/Header/Header";
 import Navigation from "./Components/Navigation/Navigations";
 import Content from "./Components/Content/Content";
 import Dialogs from "./Components/Dialogs/Dialogs";
+import {BrowserRouter, Route} from "react-router-dom";
 
 function App() {
     return (
-        <div className='shell-content'>
-            <div className='app-wrapper'>
+        <BrowserRouter>
+            <div className='shell-content'>
+                <div className='app-wrapper'>
 
-                <Header/>
+                    <Header/>
 
-                <Navigation/>
+                    <Navigation/>
 
-                <div className='app-wrapper-content'>
-                    {/*<Dialogs/>*/}
-                    <Content />
+                    <div className='app-wrapper-content'>
+                        <Route path='/dialogs' component={Dialogs}/>
+                        <Route path='/profile' component={Content}/>
+                    </div>
+
+
                 </div>
-
-
-
             </div>
-        </div>
+        </BrowserRouter>
     );
 }
 

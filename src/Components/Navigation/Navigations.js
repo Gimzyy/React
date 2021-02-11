@@ -5,10 +5,10 @@ const Navigation = ()=> {
     return(
         <nav className= {style.sectionNav}>
             <div>
-                <a href= 's' className={style.item}>Profile</a>
+                <a href= '/profile' className={style.item}>Profile</a>
             </div>
             <div>
-                <a href= 's' className={`${style.item} ${style.active}`}>Messages</a>
+                <a href= '/dialogs' className={`${style.item} ${style.active}`}>Messages</a>
             </div>
             <div>
                 <a href= 's' className={style.item}>News</a>
@@ -16,7 +16,7 @@ const Navigation = ()=> {
             <div>
                 <a href= 's' className={style.item}>Music</a>
             </div>
-            <div>
+            <div>s
                 <a href= 's' className={style.item}>Settings</a>
             </div>
 

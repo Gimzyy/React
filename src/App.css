@@ -1,24 +1,29 @@
-html,body{
-  margin: 0 ;
-  padding: 0;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 .shell-content {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.app-wrapper{
-  display: grid;
-  max-width: 1800px;
+.app-wrapper {
+    display: grid;
+    max-width: 1800px;
+    width: 100%;
 
-  grid-template-areas:
-  "header header"
-  "navigation content";
+    grid-template-areas: "header header" "navigation content";
 
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+
+}
+
+.app-wrapper-content {
+    grid-area: content;
+    background-color: peru;
 
 }

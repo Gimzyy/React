@@ -11,13 +11,13 @@ const Navigation = ()=> {
                 <a href= '/dialogs' className={`${style.item} ${style.active}`}>Messages</a>
             </div>
             <div>
-                <a href= 's' className={style.item}>News</a>
+                <a href= '/news' className={style.item}>News</a>
             </div>
             <div>
-                <a href= 's' className={style.item}>Music</a>
+                <a href= '/music' className={style.item}>Music</a>
             </div>
-            <div>s
-                <a href= 's' className={style.item}>Settings</a>
+            <div>
+                <a href= '/settings' className={style.item}>Settings</a>
             </div>
 
         </nav>
